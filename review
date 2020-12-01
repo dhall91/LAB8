@@ -1,0 +1,77 @@
+var pass = 50;
+var score = 75;
+var msg;
+II Pass mark
+II Current score
+II Message
+II Select message to write based on score
+if (score >= pass) {
+msg = 'Congratulations, you passed!';
+} else {
+msg = 'Have another go!';
+var el = document .getElementByld('answer');
+el .textContent = msg; 
+
+
+KEYWORDS
+You will commonly see these
+two keywords used with loops:
+break
+This keyword causes the
+termination of the loop and tells
+the interpreter to go onto the
+next statement of code outside
+of the loop. (You may also see it
+used in functions.)
+continue
+This keyword tells the interpreter
+to continue with the current
+iteration, and then check the
+condition again. (If it is true, the
+code runs again.) 
+
+LOOPS & ARRAYS
+Loops are very helpful when
+dealing with arrays if you want to
+run the same code for each item
+in the array.
+For example, you might want
+to write the value of each item
+stored in an array into the page.
+You may not know how many
+items will be in an array when
+writing a script, but. when the
+code runs, it can check the total
+number of items in a loop. That
+figure can then be used in the
+counter to control how many
+times a set of statements is run.
+Once the loop has run the right
+number of times, the loop stops. 
+
+PERFORMANCE ISSUES
+It is important to remember
+that when a browser comes
+across JavaScript, it will stop
+doing anything else until it has
+processed that script.
+If your loop is dealing with only
+a small number of items, this
+will not be an issue. If, however,
+your loop contains a lot of items,
+it can make the page slower to
+load.
+If the condition never returns
+fa 1 se, you get what is commonly
+referred to as an infinite loop.
+The code will not stop running
+until your browser runs out of
+memory (breaking your script).
+Any variable you can define
+outside of the loop and that
+does not change within the loop
+should be defined outside of it.
+If it were declared inside the
+loop, it would be recalculated
+every time the loop ran,
+needlessly using resources. 
